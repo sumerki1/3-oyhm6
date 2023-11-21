@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+table{
+    border-collapse: collapse;
+}
+td{
+    padding: 10px 15px;
+}
+tr:nth-child(2) td:nth-child(1){
+    background-color: rgb(226, 225, 225);
+    color:rgb(51,150,101) ;
+    border-top: 1px solid rgb(151, 151, 151);
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+tr:nth-child(2) td:nth-child(2){
+    background-color: rgb(226, 225, 225);
+    color:rgb(51,150,101) ;
+    border-top: 1px solid rgb(151, 151, 151);
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+tr:nth-child(2) td:nth-child(3){
+    background-color: rgb(226, 225, 225);
+    color:rgb(51,150,101) ;
+    border-top: 1px solid rgb(151, 151, 151);
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+tr:nth-child(2) td:nth-child(4){
+    background-color: rgb(226, 225, 225);
+    color:rgb(51,150,101) ;
+    border-top: 1px solid rgb(151, 151, 151);
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+tr:nth-child(3) td:nth-child(1){
+    border-bottom: 3px solid rgb(51,150,101);
+}
+tr:nth-child(3) td:nth-child(2){
+    border-bottom: 3px solid rgb(51,150,101);
+}
+tr:nth-child(3) td:nth-child(3){
+    border-bottom: 3px solid rgb(51,150,101);
+}
+tr:nth-child(3) td:nth-child(4){
+    border-bottom: 3px solid rgb(51,150,101);
+}
+th{
+    background: rgb(51,150,101);
+    color: #e6e4e4;
+    height: 35px;
+} 
